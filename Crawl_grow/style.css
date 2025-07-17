@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background: black;
+  color: white;
+  font-family: sans-serif;
+}
+
+canvas {
+  display: block;
+}
+
+.controls {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 10;
+}
+
+#startBtn {
+  padding: 6px 12px;
+  font-size: 16px;
+}
+
+#timer {
+  margin-left: 10px;
+  font-size: 18px;
+}
